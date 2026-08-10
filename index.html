@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Memory Match</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- Game Logo -->
+    <div class="game-logo">
+      <img
+        src="logo.png"
+        alt="Memory Match Logo"
+        class="logo"
+      >
+    </div>
+
+
+    <!-- Header -->
+    <header>
+
+      <!-- Game Statistics -->
+      <div class="stats">
+
+        <div class="pill" id="moves">
+          Moves: <b>0</b>
+        </div>
+
+        <div class="pill" id="timer">
+          Time: <b>00:00</b>
+        </div>
+
+        <div class="pill" id="pairs">
+          Pairs: <b>0/0</b>
+        </div>
+
+      </div>
+
+
+      <!-- Controls -->
+      <div class="controls">
+
+        <select id="difficulty" title="Difficulty">
+
+          <option value="4x4">
+            Easy 4×4
+          </option>
+
+          <option value="5x4">
+            Medium 5×4
+          </option>
+
+          <option value="6x4">
+            Hard 6×4
+          </option>
+
+        </select>
+
+
+        <select id="timeLimit" title="Time limit">
+
+          <option value="0">
+            No limit
+          </option>
+
+          <option value="60">
+            1 minute
+          </option>
+
+          <option value="120">
+            2 minutes
+          </option>
+
+          <option value="300">
+            5 minutes
+          </option>
+
+          <option value="custom">
+            Custom...
+          </option>
+
+        </select>
+
+
+        <button
+          id="newGame"
+          aria-label="New game"
+        >
+          New Game
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- Game Grid -->
+    <main
+      class="grid"
+      id="grid"
+      style="--cols:4"
+    ></main>
+
+
+    <!-- Toast Messages -->
+    <div
+      class="toast"
+      id="toast"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+
+
+    <!-- Win / Lose Modal -->
+    <div
+      class="modal hide"
+      id="winModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="winTitle"
+    >
+
+      <div class="dialog">
+
+        <h2 id="winTitle">
+          You Won! 🎉
+        </h2>
+
+        <p id="winStats">
+          Nice memory. Ready for another round?
+        </p>
+
+        <div class="row">
+
+          <button id="playAgain">
+            Play Again
+          </button>
+
+          <button id="closeModal">
+            Close
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- JavaScript -->
+  <script
+    src="script.js"
+    defer
+  ></script>
+
+</body>
+</html>
