@@ -121,6 +121,8 @@ Play Again| Start another round
 
 No frameworks or external JavaScript libraries are required.
 
+# [🔴 Live Demo](https://thatonehtmlguy.github.io/Memory-Card-Game/)
+
 📱 Mobile Support
 
 The game automatically adjusts the card grid for smaller screens.
