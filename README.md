@@ -28,28 +28,51 @@ Flip the cards, find all matching pairs, and try to complete the board before th
 - 🔄 Press R to start a new game
 - 🎨 Custom card artwork using PNG images
 
-# 📁 Project Structure
 
+# 📁 Project Structure
+ 
 Memory-Match/
+ 
 │
+
 ├── index.html
+
 ├── styles.css
+
 ├── script.js
+
 ├── logo.png
+
 │
-└── Cards/
-    ├── 1.png
-    ├── 2.png
-    ├── 3.png
-    ├── 4.png
-    ├── 5.png
-    ├── 6.png
-    ├── 7.png
-    ├── 8.png
-    ├── 9.png
-    ├── 10.png
-    ├── 11.png
-    └── 12.png
+
+ └── Cards/
+
+   ├── 1.png
+    
+   ├── 2.png
+    
+   ├── 3.png
+    
+   ├── 4.png
+    
+   ├── 5.png
+    
+   ├── 6.png
+    
+   ├── 7.png
+  
+   ├── 8.png
+    
+   ├── 9.png
+    
+   ├── 10.png
+    
+   ├── 11.png
+    
+   └── 12.png
+
+
+    
 
 # 🎮 How to Play
 
