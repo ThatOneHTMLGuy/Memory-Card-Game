@@ -71,6 +71,8 @@ If the timer reaches zero:
 - The cards remain hidden while the message is displayed.
 - Clicking Close reveals all the cards.
 
+# [🔴 Live Demo](https://thatonehtmlguy.github.io/Memory-Card-Game/)
+
 ## 🖼️ Adding Your Own Cards
 
 The game loads card images from the "Cards" folder.
