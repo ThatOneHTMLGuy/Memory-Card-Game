@@ -1,10 +1,10 @@
-🧠 Memory Match
+## 🧠 Memory Match
 
 A simple and responsive Memory Match card game built with HTML, CSS, and JavaScript.
 
 Flip the cards, find all matching pairs, and try to complete the board before the timer runs out!
 
-✨ Features
+## ✨ Features
 
 - 🃏 Image-based memory cards
 - 🎯 Three difficulty levels:
@@ -28,15 +28,14 @@ Flip the cards, find all matching pairs, and try to complete the board before th
 - 🔄 Press R to start a new game
 - 🎨 Custom card artwork using PNG images
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 Memory-Match/
-│
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── logo.png
-│
 └── Cards/
     ├── 1.png
     ├── 2.png
@@ -50,8 +49,9 @@ Memory-Match/
     ├── 10.png
     ├── 11.png
     └── 12.png
+```
 
-🎮 How to Play
+## 🎮 How to Play
 
 1. Select a difficulty.
 2. Choose a time limit or select No limit.
@@ -60,7 +60,7 @@ Memory-Match/
 5. If they don't match, they are flipped back.
 6. Continue until all pairs are found.
 
-⏱️ Time Limit
+## ⏱️ Time Limit
 
 When a countdown is enabled, the timer counts down to "00:00".
 
@@ -71,7 +71,7 @@ If the timer reaches zero:
 - The cards remain hidden while the message is displayed.
 - Clicking Close reveals all the cards.
 
-🖼️ Adding Your Own Cards
+## 🖼️ Adding Your Own Cards
 
 The game loads card images from the "Cards" folder.
 
@@ -84,22 +84,23 @@ Cards/12.png
 
 To use your own artwork, simply replace these PNG files while keeping the same filenames.
 
-🧩 Card System
+## 🧩 Card System
 
 The game uses 12 unique images.
 
 Depending on the selected difficulty, JavaScript randomly chooses the required number of images:
 
-Difficulty| Cards| Pairs| Images Used
-Easy| 16| 8| 8
-Medium| 20| 10| 10
-Hard| 24| 12| 12
+| Difficulty | Cards | Pairs | Images Used |
+|------------|------:|------:|------------:|
+| Easy       | 16    | 8     | 8           |
+| Medium     | 20    | 10    | 10          |
+| Hard       | 24    | 12    | 12          |
 
 Each selected image is duplicated to create its matching pair.
 
 The cards are then shuffled before being displayed.
 
-⌨️ Controls
+## ⌨️ Controls
 
 Control| Action
 Mouse / Touch| Flip cards
@@ -108,7 +109,7 @@ Enter / Space| Flip a focused card
 New Game| Restart the current game
 Play Again| Start another round
 
-🛠️ Technologies
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
@@ -119,7 +120,7 @@ Play Again| Start another round
 
 No frameworks or external JavaScript libraries are required.
 
-📱 Mobile Support
+## 📱 Mobile Support
 
 The game automatically adjusts the card grid for smaller screens.
 
@@ -130,9 +131,3 @@ cols-5
 cols-6
 
 This allows the card sizes and spacing to be adjusted for different layouts.
-
-📄 License
-
-This project is free to modify and use for personal projects.
-
-If you use artwork that isn't your own, make sure you have permission to use it and follow its original licence.
